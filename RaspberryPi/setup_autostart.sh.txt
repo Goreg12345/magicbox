@@ -1,0 +1,5 @@
+sudo mv /home/pi/Desktop/operant/georg/box_autostart.service /lib/systemd/system/box_autostart.service
+sudo chmod 644 /lib/systemd/system/box_autostart.service
+sudo systemctl daemon-reload
+sudo systemctl enable box_autostart.service
+sudo reboot

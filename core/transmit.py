@@ -10,7 +10,7 @@ rfid_port = 3001
 host_names = {
     'box_1': socket.gethostbyname('raspberrypi1'),
     'box_2': socket.gethostbyname('raspberrypi2'),
-    #'box_3': socket.gethostbyname('raspberrypi3'),
+    'box_3': socket.gethostbyname('raspberrypi3'),
     'box_4': socket.gethostbyname('raspberrypi4'),
     'box_5': socket.gethostbyname('raspberrypi5'),
     'box_6': socket.gethostbyname('raspberrypi6'),
